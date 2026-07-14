@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandit Ashish Urmaliya | Vedic Rituals & Astrology</title>
+    <meta name="description"
+        content="Authentic Vedic rituals, pujas, marriage ceremonies, and astrology services by Pandit Ashish Urmaliya.">
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo"><img src="logo.png" alt="Pandit Ashish Urmaliya Logo"></a>
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="nav-home">Home</a></li>
+            <li><a href="#about" data-i18n="nav-about">About</a></li>
+            <li><a href="#services" data-i18n="nav-services">Services</a></li>
+            <li><a href="#gallery" data-i18n="nav-gallery">Gallery</a></li>
+            <li><a href="#contact" data-i18n="nav-contact">Contact Us</a></li>
+        </ul>
+
+        <div class="nav-controls">
+            <button id="theme-toggle" class="control-btn" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button id="lang-toggle" class="control-btn lang-btn" aria-label="Toggle Language">
+                <span class="lang-text" id="lang-indicator">HI</span>
+            </button>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="reveal-text" data-i18n="hero-title">Pandit Ashish Urmaliya</h1>
+            <p class="fade-in-up" data-i18n="hero-desc">Bringing divine blessings and authentic Vedic traditions to your
+                special moments.</p>
+            <div class="hero-buttons fade-in-up delay-1">
+                <a href="#services" class="btn-primary" data-i18n="btn-explore">Explore Services</a>
+                <a href="#" id="btn-book-modal" class="btn-secondary" data-i18n="btn-book">Book a Consultation</a>
+            </div>
+        </div>
+        <div class="hero-pattern"></div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="section-title reveal-text">
+            <h2 data-i18n="about-title">About Pandit Ji</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text slide-in-left">
+                <h3 data-i18n="about-sub">Decades of Vedic Wisdom</h3>
+                <p data-i18n="about-p1">Pandit Ashish Urmaliya is a highly revered Hindu priest with extensive expertise
+                    in Vedic rituals,
+                    Shastras, and Astrology. With years of experience conducting ceremonies with precise adherence to
+                    ancient traditions, he brings peace, prosperity, and spiritual fulfillment to families.</p>
+                <p data-i18n="about-p2">Whether it is a grand wedding, a housewarming, or a personalized astrological
+                    consultation, his
+                    profound knowledge and devoted approach ensure a truly divine experience.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h4>5+</h4>
+                        <p data-i18n="stat-exp">Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>150+</h4>
+                        <p data-i18n="stat-fam">Families Served</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>200+</h4>
+                        <p data-i18n="stat-rituals">Rituals Performed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image slide-in-right">
+                <img src="5.jpeg" alt="Pandit Ashish Urmaliya"
+                    style="width: 100%; max-width: 450px; border-radius: 24px; object-fit: cover; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="section-title reveal-text">
+            <h2 data-i18n="services-title">Divine Services</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card stagger-in">
+                <div class="icon"><i class="fas fa-om"></i></div>
+                <h3 data-i18n="srv-puja-title">Vedic Pujas</h3>
+                <p data-i18n="srv-puja-desc">Authentic rituals including Satyanarayan Katha, Rudrabhishek, and Navagraha
+                    Shanti.</p>
+            </div>
+            <div class="service-card stagger-in">
+                <div class="icon"><i class="fas fa-ring"></i></div>
+                <h3 data-i18n="srv-marriage-title">Marriage Ceremonies</h3>
+                <p data-i18n="srv-marriage-desc">Complete execution of traditional Hindu weddings with all Vedic rites
+                    and mantras.</p>
+            </div>
+            <div class="service-card stagger-in">
+                <div class="icon"><i class="fas fa-home"></i></div>
+                <h3 data-i18n="srv-vastu-title">Vastu Shastra</h3>
+                <p data-i18n="srv-vastu-desc">Expert Vastu consultations for homes and businesses to ensure positive
+                    cosmic energy flow.</p>
+            </div>
+            <div class="service-card stagger-in">
+                <div class="icon"><i class="fas fa-star-and-crescent"></i></div>
+                <h3 data-i18n="srv-astro-title">Astrology</h3>
+                <p data-i18n="srv-astro-desc">Kundali matching, personalized horoscope readings, and astrological
+                    remedies.</p>
+            </div>
+            <div class="service-card stagger-in">
+                <div class="icon"><i class="fas fa-fire"></i></div>
+                <h3 data-i18n="srv-havan-title">Havan & Yagya</h3>
+                <p data-i18n="srv-havan-desc">Purifying fire rituals for health, wealth, and removing obstacles from
+                    life.</p>
+            </div>
+            <div class="service-card stagger-in">
+                <div class="icon"><i class="fas fa-child"></i></div>
+                <h3 data-i18n="srv-sanskar-title">Sanskar Rituals</h3>
+                <p data-i18n="srv-sanskar-desc">Namakaran, Mundan, and Vidyarambham ceremonies performed with utmost
+                    devotion.</p>
+            </div>
+            <div class="service-card stagger-in">
+                <div class="icon"><i class="fas fa-book-open"></i></div>
+                <h3 data-i18n="srv-katha-title">Katha & Path</h3>
+                <p data-i18n="srv-katha-desc">Spiritual recitations including Bhagwat Katha, Ramayan Path, and
+                    Sunderkand.</p>
+            </div>
+            <div class="service-card stagger-in">
+                <div class="icon"><i class="fas fa-praying-hands"></i></div>
+                <h3 data-i18n="srv-pitru-title">Pitru Shanti</h3>
+                <p data-i18n="srv-pitru-desc">Rituals for ancestral peace, including Narayan Bali and annual Shraddh
+                    ceremonies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="section-title reveal-text">
+            <h2 data-i18n="gallery-title">Sacred Moments</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="gallery-carousel">
+            <div class="gallery-track">
+                <div class="gallery-item"><img src="1.jpeg" alt="Pandit Ashish Urmaliya Ceremony 1" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="2.jpeg" alt="Pandit Ashish Urmaliya Ceremony 2" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="3.jpeg" alt="Pandit Ashish Urmaliya Ceremony 3" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="4.jpeg" alt="Pandit Ashish Urmaliya Ceremony 4" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="5.jpeg" alt="Pandit Ashish Urmaliya Ceremony 5" loading="lazy">
+                </div>
+                <!-- Duplicate for seamless scroll -->
+                <div class="gallery-item"><img src="1.jpeg" alt="Pandit Ashish Urmaliya Ceremony 1" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="2.jpeg" alt="Pandit Ashish Urmaliya Ceremony 2" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="3.jpeg" alt="Pandit Ashish Urmaliya Ceremony 3" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="4.jpeg" alt="Pandit Ashish Urmaliya Ceremony 4" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="5.jpeg" alt="Pandit Ashish Urmaliya Ceremony 5" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container slide-up">
+            <div class="contact-info">
+                <h2 data-i18n="contact-title">Book a Sacred Service</h2>
+                <ul>
+                    <li><i class="fas fa-phone"></i> <a href="tel:8349615622">+91 8349615622</a></li>
+                    <li><i class="fas fa-envelope"></i> <a
+                            href="mailto:ashishurmaliya143@gmail.com">ashishurmaliya143@gmail.com</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> <a
+                            href="https://www.google.com/maps/search/?api=1&query=Shankar+nagar+karmeta+jabalpur+M.P+482002"
+                            target="_blank">Shankar nagar karmeta jabalpur (M.P ) 482002</a></li>
+                    <li><i class="fab fa-instagram"></i> <a
+                            href="https://www.instagram.com/astro_ashish_urmaliya?igsh=cjRlc3VjY2l4N3g5"
+                            target="_blank">@astro_ashish_urmaliya</a></li>
+                </ul>
+                <div class="help-section"
+                    style="margin-top: 40px; padding: 25px; background: var(--surface-alt); border-radius: 16px; border: 1px solid rgba(183,28,28,0.1);">
+                    <h3 data-i18n="help-title" style="color: var(--primary); margin-bottom: 15px; font-size: 1.3rem;">
+                        For any help:</h3>
+                    <form class="help-form" style="display: flex; flex-direction: column; gap: 15px;">
+                        <textarea required data-i18n-placeholder="help-placeholder"
+                            placeholder="Write your message here..." rows="3"
+                            style="width:100%; padding:15px; border-radius:12px; border:1px solid rgba(0,0,0,0.08); background:var(--bg); color:var(--text); font-family:var(--font-body); resize:none; outline:none;"></textarea>
+                        <button type="submit" class="btn-primary" style="align-self: flex-start; padding: 10px 24px;"
+                            data-i18n="help-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <form class="contact-form">
+                <p data-i18n="contact-desc"
+                    style="font-weight: 600; font-size: 1.1rem; color: var(--primary); margin-bottom: -15px;">Fill in
+                    the details</p>
+                <div class="input-group">
+                    <select required>
+                        <option value="" disabled selected data-i18n="form-service">Select Service</option>
+                        <option value="puja" data-i18n="form-opt-puja">Vedic Puja</option>
+                        <option value="marriage" data-i18n="form-opt-marriage">Marriage Ceremony</option>
+                        <option value="astrology" data-i18n="form-opt-astro">Astrology</option>
+                        <option value="other" data-i18n="form-opt-other">Other</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <input type="text" data-i18n-placeholder="form-name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="tel" data-i18n-placeholder="form-phone" placeholder="Phone Number" required
+                        pattern="[0-9]{10}" maxlength="10" minlength="10"
+                        title="Please enter a valid 10-digit phone number">
+                </div>
+                <div style="display:flex; flex-wrap: wrap; gap: 20px;">
+                    <div class="input-group" style="flex:1 1 120px;">
+                        <input type="date" required aria-label="Date">
+                    </div>
+                    <div class="input-group" style="flex:1 1 120px;">
+                        <input type="time" required aria-label="Time">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="text" data-i18n-placeholder="form-location" placeholder="Location / Address" required>
+                </div>
+                <div class="input-group">
+                    <textarea data-i18n-placeholder="form-msg" placeholder="Your Message (Optional)"
+                        rows="4"></textarea>
+                </div>
+                <p data-i18n="form-redirect-msg"
+                    style="font-size: 0.9rem; color: var(--text-muted); text-align: center; margin-bottom: 0;">To
+                    confirm you will be redirected to whatsapp</p>
+                <button type="submit" class="btn-primary" data-i18n="form-submit">Confirm</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p data-i18n="footer-text">&copy; 2026 Pandit Ashish Urmaliya. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 data-i18n="contact-title" style="color: var(--primary); margin-bottom: 20px;">Book a Sacred Service</h2>
+            <form class="contact-form modal-form">
+                <p data-i18n="contact-desc"
+                    style="font-weight: 600; font-size: 1.1rem; color: var(--primary); margin-bottom: 5px;">Fill in the
+                    details</p>
+                <div class="input-group">
+                    <select required>
+                        <option value="" disabled selected data-i18n="form-service">Select Service</option>
+                        <option value="puja" data-i18n="form-opt-puja">Vedic Puja</option>
+                        <option value="marriage" data-i18n="form-opt-marriage">Marriage Ceremony</option>
+                        <option value="astrology" data-i18n="form-opt-astro">Astrology</option>
+                        <option value="other" data-i18n="form-opt-other">Other</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <input type="text" data-i18n-placeholder="form-name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="tel" data-i18n-placeholder="form-phone" placeholder="Phone Number" required
+                        pattern="[0-9]{10}" maxlength="10" minlength="10"
+                        title="Please enter a valid 10-digit phone number">
+                </div>
+                <div style="display:flex; flex-wrap: wrap; gap: 20px;">
+                    <div class="input-group" style="flex:1 1 120px;">
+                        <input type="date" required aria-label="Date">
+                    </div>
+                    <div class="input-group" style="flex:1 1 120px;">
+                        <input type="time" required aria-label="Time">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="text" data-i18n-placeholder="form-location" placeholder="Location / Address" required>
+                </div>
+                <div class="input-group">
+                    <textarea data-i18n-placeholder="form-msg" placeholder="Your Message (Optional)"
+                        rows="3"></textarea>
+                </div>
+                <p data-i18n="form-redirect-msg"
+                    style="font-size: 0.9rem; color: var(--text-muted); text-align: center; margin-bottom: 0;">*To
+                    confirm you will be redirected to whatsapp</p>
+                <button type="submit" class="btn-primary" data-i18n="form-submit">Confirm</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="modal" style="z-index: 3000;">
+        <span class="close-image-modal close-modal" style="font-size: 50px; right: 30px; top: 15px;">&times;</span>
+        <img id="expanded-image"
+            style="margin: auto; display: block; max-width: 95%; max-height: 95vh; border-radius: 12px; object-fit: contain; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
